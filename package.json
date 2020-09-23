@@ -5,7 +5,7 @@
   "homepage": "https://ha-young.github.io/background-changer",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "rm -rf docs; parcel build -d docs --public-url /nomad_css_challenge src/index.html",
+    "build": "rm -rf docs; parcel build -d docs --public-url /background-changer src/index.html",
     "predeploy": "npm clean; npm run build",
     "deploy": "gh-pages -d docs"
   },
