@@ -2,10 +2,10 @@
   "name": "background-changer",
   "version": "1.0.0",
   "description": "prepare vanilla-coding prep. random generate hexa bacground",
-  "main": "index.js",
+  "homepage": "https://ha-young.github.io/background-changer",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "rm -rf build; parcel build -d src/index.html",
+    "build": "rm -rf docs; parcel build -d docs --public-url /nomad_css_challenge src/index.html",
     "predeploy": "npm clean; npm run build",
     "deploy": "gh-pages -d docs"
   },
@@ -18,7 +18,6 @@
   "bugs": {
     "url": "https://github.com/Ha-Young/background-changer/issues"
   },
-  "homepage": "https://ha-young.github.io/background-changer",
   "devDependencies": {
     "gh-pages": "^3.1.0",
     "parcel-bundler": "^1.10.1"
